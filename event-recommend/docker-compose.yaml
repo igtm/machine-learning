@@ -1,0 +1,11 @@
+version: "3"
+services:
+  anaconda3:
+    build: .
+    tty: true
+    ports:
+     - "8888:8888"
+    working_dir: /app/event-recommend
+    volumes:
+     - ./tmp/notebooks:/opt/notebooks
+     - .:/app/event-recommend

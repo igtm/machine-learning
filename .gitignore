@@ -1,0 +1,10 @@
+tmp
+text
+__pycache__
+*.pkl
+*.txt
+*.gz
+*.bz2
+*.json
+*.model
+*.npy
